@@ -1,6 +1,6 @@
 # Credit Card Checker
 
-![Untitled](Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/70331030/107842283-501b9500-6dc2-11eb-8fa3-fd026b7d23ce.PNG)
 
 ## About
 
@@ -20,7 +20,7 @@ You can test the app using your credit card or generating fake credit cards.
 
 ## Deployment
 
-The web app was deployed using  **[Netlify](netlify.com)** and can be accessed on **https://jesulonimiicardvalidator.netlify.app/**
+The web app was deployed using  **[Netlify](netlify.com)** and can be accessed on **https://https://creditcardchecker.netlify.app/**
 
 ## Contributing
 
