@@ -38,4 +38,4 @@ The web app was deployed using  **[Netlify](https://netlify.com)** and can be ac
 
 ## Contributing
 
-Feel free to fork and clone the repo. I'll really appreciate help in the design aspect. 
+Feel free to fork and clone the repo. 
