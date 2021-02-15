@@ -8,7 +8,7 @@ function validateCred() {
 
     if (input == "") {
       result.style.display= 'block'
-      result.style.background= '#E63939'
+      result.style.background= '#ED5252'
       result.style.borderColor= 'red'
       result.style.color= 'white'
       result.innerHTML = 'This field cannot be empty'
@@ -46,7 +46,7 @@ if(!isNaN(input)) {
         result.innerHTML = 'This card is valid'
       } else {
         result.style.display= 'block'
-        result.style.background= '#E63939'
+        result.style.background= '#ED5252'
         result.style.color= 'white'
         result.style.borderColor= 'red'
         result.innerHTML = 'This card is invalid'

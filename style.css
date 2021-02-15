@@ -114,11 +114,11 @@ h1{
 }
 
 .result{
-    color: black;
+    color: white;
     position: relative;
     border-radius: 15px;
     padding: 10px; 
-    border: 2px solid red;
+    border: 2.5px solid red;
     display: none;
     transition: 0.25s;
     animation-name: result-anim;
