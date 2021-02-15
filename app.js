@@ -1,8 +1,12 @@
+
+let input = document.getElementById('input').value;
+let result = document.getElementById('result');
+let hide = document.getElementById('closeBtn');
+
+
 //function checking validity of credit card
 function validateCred() {
-    let input = document.getElementById('input').value;
-    let result = document.getElementById('result');
-
+    
 
 
 
@@ -61,4 +65,24 @@ if(!isNaN(input)) {
     }
 
     }
+
+
+    if (result.style.display == 'block') {
+  hide.style.display= 'block'
+}
+ else{
+  hide.style.display= 'none'
+ }
+
+
+
+
+}
+
+
+function closeResult() {
+  
+  result.style.display= 'none';
+  hide.style.display= 'none';
+
 }

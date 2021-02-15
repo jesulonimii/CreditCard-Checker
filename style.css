@@ -125,13 +125,19 @@ h1{
     animation-duration: 0.5s;
 }
 
+
 .closeBtn{
-    position: fixed;
-    display: block;
+    cursor: pointer;
+    display: none;
     color: black;
+    text-decoration: underline;
     z-index: 1000;
+    text-align: center;
+    margin: 1rem auto;
 
 }
+
+
 
 @media only screen and (max-width: 900px){
 
