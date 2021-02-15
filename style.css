@@ -115,16 +115,21 @@ h1{
 
 .result{
     color: black;
+    position: relative;
     border-radius: 15px;
     padding: 10px; 
     border: 2px solid red;
     display: none;
     transition: 0.25s;
+    animation-name: result-anim;
+    animation-duration: 0.5s;
 }
 
 .closeBtn{
-   
+    position: fixed;
+    display: block;
     color: black;
+    z-index: 1000;
 
 }
 
@@ -149,5 +154,12 @@ h1{
 }
 
 
+}
+
+
+/* The animation code */
+@keyframes result-anim {
+  from {top: 20px; opacity: 0%}
+  to {top: 0px; opacity: 100%}
 }
 
