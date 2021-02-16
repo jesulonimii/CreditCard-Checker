@@ -82,11 +82,6 @@ if(!isNaN(input)) {
 
 }
 
-let input = document.getElementById('input').value;
-let result = document.getElementById('result');
-let hide = document.getElementById('closeBtn');
-
-
 
 function closeResult() {
   
