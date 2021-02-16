@@ -4,6 +4,18 @@ let result = document.getElementById('result');
 let hide = document.getElementById('closeBtn');
 
 
+function displayHide() {
+  
+  if (result.style.display == 'block') {
+      hide.style.display= 'block'
+    }
+    else{
+      hide.style.display= 'none'
+    }
+
+}
+
+
 //function checking validity of credit card
 function validateCred() {
     
@@ -22,7 +34,7 @@ let hide = document.getElementById('closeBtn');
     } 
     else{
 
-if(!isNaN(input)) {
+    if(!isNaN(input)) {
       //converts the input to an array of numbers
       const cred = Array.from(input.split(''), Number)
       //copy the array and reverse its order
@@ -51,17 +63,21 @@ if(!isNaN(input)) {
         result.style.borderColor= 'rgba(53,188,110,1)'
         result.style.color= 'white'
         result.innerHTML = 'This card is valid'
+        displayHide();
       } else {
         result.style.display= 'block'
         result.style.background= '#ED5252'
         result.style.color= 'white'
         result.style.borderColor= 'red'
         result.innerHTML = 'This card is invalid'
+        displayHide();
       }
+
+      
+
       return true
+
     } 
-
-
     else {
       alert('Enter a valid number')
       return false
@@ -70,12 +86,7 @@ if(!isNaN(input)) {
     }
 
 
-    if (result.style.display == 'block') {
-  hide.style.display= 'block'
-}
- else{
-  hide.style.display= 'none'
- }
+    displayHide();
 
 
 
@@ -89,3 +100,5 @@ function closeResult() {
   hide.style.display= 'none';
 
 }
+
+

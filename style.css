@@ -81,7 +81,7 @@ h1{
 .container {
     background: rgba(255,255,255,0.4);
     border: 0.5px solid white;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
 }
 
 .validateButton{
@@ -130,7 +130,7 @@ h1{
     cursor: pointer;
     display: none;
     color: black;
-    text-decoration: underline;
+    transition: 3.25s;
     z-index: 1000;
     text-align: center;
     margin: 1rem auto;
