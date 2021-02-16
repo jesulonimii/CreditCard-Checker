@@ -59,6 +59,15 @@ if(!isNaN(input)) {
         result.innerHTML = 'This card is invalid'
       }
       return true
+
+
+if (result.style.display == 'block') {
+  hide.style.display= 'block'
+}
+ else{
+  hide.style.display= 'none'
+ }
+
     } 
 
 
@@ -69,25 +78,8 @@ if(!isNaN(input)) {
 
     }
 
-
-    if (result.style.display == 'block') {
-  hide.style.display= 'block'
-}
- else{
-  hide.style.display= 'none'
- }
-
-
-
-
 }
 
-if (result.style.display == 'block') {
-  hide.style.display= 'block'
-}
- else{
-  hide.style.display= 'none'
- }
 
 
 function closeResult() {
