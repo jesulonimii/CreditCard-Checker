@@ -61,12 +61,7 @@ if(!isNaN(input)) {
       return true
 
 
-if (result.style.display == 'block') {
-  hide.style.display= 'block'
-}
- else{
-  hide.style.display= 'none'
- }
+
 
     } 
 
@@ -75,6 +70,13 @@ if (result.style.display == 'block') {
       alert('Enter a valid number')
       return false
     }
+
+if (result.style.display == 'block') {
+  hide.style.display= 'block'
+}
+ else{
+  hide.style.display= 'none'
+ }
 
     }
 
