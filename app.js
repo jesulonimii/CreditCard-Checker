@@ -7,6 +7,9 @@ let hide = document.getElementById('closeBtn');
 //function checking validity of credit card
 function validateCred() {
     
+let input = document.getElementById('input').value;
+let result = document.getElementById('result');
+let hide = document.getElementById('closeBtn');
 
 
 
