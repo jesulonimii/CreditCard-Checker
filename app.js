@@ -82,6 +82,13 @@ if(!isNaN(input)) {
 
 }
 
+if (result.style.display == 'block') {
+  hide.style.display= 'block'
+}
+ else{
+  hide.style.display= 'none'
+ }
+
 
 function closeResult() {
   
